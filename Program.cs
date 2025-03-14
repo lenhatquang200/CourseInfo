@@ -29,6 +29,7 @@
 
             course.RemoveStudent(0);
             course.DisplayCourse();
+            Console.WriteLine("End of program");
         }
     }
 }
