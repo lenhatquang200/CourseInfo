@@ -9,7 +9,7 @@
             //course.SetName("SP25 - SE08101");
             //course.SetSubject("Programming");
             //  cach 2: khai bao ra doi tuong Course va cac gia tri ngay tai do/.
-            Course course = new Course("P25 - SE08101", "Programming");
+            Courses course = new Courses("P25 - SE08101", "Programming");
 
             Student student1 = new Student();
             Student student2 = new Student("BC0001","Nguyen Van A");

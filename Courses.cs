@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CourseInfo
 {
-    internal class Course
+    internal class Courses
     {
         protected string Name;
         protected string Subject;
@@ -48,12 +48,12 @@ namespace CourseInfo
             }
         }
 
-        public Course()
+        public Courses()
         {
             SetName("Default Course Name");
             SetSubject("Default Subject");
         }
-        public Course(string name, string subject)
+        public Courses(string name, string subject)
         {
             SetName(name);
             SetSubject(subject);
